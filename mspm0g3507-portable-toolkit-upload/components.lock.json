@@ -1,0 +1,13 @@
+{
+  "algorithm": "SHA256",
+  "source": "Observed from D:/ti/TI_IDE on 2026-10-30; hashes identify the tested local files but are not a substitute for vendor signatures.",
+  "files": {
+    "vendor/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe": "9E098F8D5708368EC198DF898201C5CC561419B33CBD765DAE033146DA1F449B",
+    "vendor/sysconfig_1.27.0/nodejs/node.exe": "4C727FF5D61083A5117062518207B18759C70BC903EDCD89D69B4FF125D73914",
+    "vendor/sysconfig_1.27.0/dist/cli.js": "C82947FFCA8CEE8711C8C9DFC02F8DEF6D977B56052FE919269761D2F604F5F3",
+    "vendor/gmake/bin/gmake.exe": "735F485366DF3700CCF6B03278E4BE232884F1E1FEC4A44EFE5C5FE4DA1D96B2",
+    "vendor/openocd/1.3.1.50/bin/openocd.exe": "6A53535A7BD600AC8B09A69CDC64543E4C2F5F90D616B6222F50BD396CAE830E",
+    "vendor/arm-none-eabi-gdb/14.2.rel1.1/arm-none-eabi-gdb.exe": "36AE2E715FDBF7AFBD2F58CA992486E73AA3E7111BBC9C552AFBE93A3C66A7E1",
+    "vendor/mspm0_sdk_2_10_00_04/.metadata/product.json": "C267C4FB32824965C9AD1082BA70322C72A63673425B7FB904FA6ABFFFC60278"
+  }
+}
