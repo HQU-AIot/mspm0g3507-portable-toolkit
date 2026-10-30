@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "MSPM0: Verify Toolkit",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/Test-Toolkit.ps1"],
+      "problemMatcher": []
+    },
+    {
+      "label": "MSPM0: Build Project",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/Build-Project.ps1", "-ProjectPath", "${input:projectPath}"],
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "MSPM0: Clean Project",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/Build-Project.ps1", "-ProjectPath", "${input:projectPath}", "-Target", "clean"],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "projectPath",
+      "type": "promptString",
+      "description": "包含 ticlang/makefile 的 MSPM0 工程绝对路径"
+    }
+  ]
+}

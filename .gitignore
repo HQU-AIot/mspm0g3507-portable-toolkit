@@ -1,0 +1,15 @@
+/vendor/*
+!/vendor/.gitkeep
+/projects/*
+!/projects/.gitkeep
+/artifacts/
+*.7z
+*.zip
+*.out
+*.obj
+*.map
+*.bin
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
